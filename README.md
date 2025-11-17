@@ -16,22 +16,22 @@
 
 ---
 
-## 🌟 Overview
+##  Overview
 
 Avokat AI is an intelligent legal document analysis system that combines advanced PDF processing, knowledge graph construction, and multilingual AI-powered chat capabilities. Built for legal professionals, it provides grounded legal assistance by analyzing uploaded documents and creating session-isolated knowledge graphs.
 
-### 🎯 Key Capabilities
+###  Key Capabilities
 
-- **📄 PDF Processing**: High-quality text extraction using PyMuPDF
-- **🧠 Knowledge Graph**: Neo4j-based entity and relationship extraction
-- **🌍 Multilingual Support**: Arabic, English, and mixed-language processing
-- **💬 AI Chat**: Real-time streaming responses with Gemini 2.5 Flash
-- **🔒 Session Isolation**: Complete data separation between chat sessions
-- **⚖️ Legal Compliance**: Built-in disclaimers and professional legal assistance
+- **PDF Processing**: High-quality text extraction using PyMuPDF
+- **Knowledge Graph**: Neo4j-based entity and relationship extraction
+- **Multilingual Support**: Arabic, English, and mixed-language processing
+- **AI Chat**: Real-time streaming responses with Gemini 2.5 Flash
+- **Session Isolation**: Complete data separation between chat sessions
+- **Legal Compliance**: Built-in disclaimers and professional legal assistance
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -89,9 +89,9 @@ Avokat AI is an intelligent legal document analysis system that combines advance
 
 ---
 
-## 🔧 Features
+##  Features
 
-### 📊 Document Processing Pipeline
+### Document Processing Pipeline
 
 ```mermaid
 graph LR
@@ -103,7 +103,7 @@ graph LR
     F --> G[Chat Ready]
 ```
 
-### 🌍 Multilingual Support
+### Multilingual Support
 
 | Language | Features |
 |----------|----------|
@@ -120,7 +120,7 @@ graph LR
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ### System Overview
 
@@ -301,7 +301,7 @@ DEBUG=false
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 ### Health Checks
 
@@ -343,7 +343,7 @@ curl -X POST "http://localhost:8000/sessions" \
 
 ---
 
-## 🚀 Deployment
+##  Deployment
 
 ### Development
 
@@ -379,7 +379,7 @@ CMD ["python", "-m", "uvicorn", "backend.app.main:app", "--host", "0.0.0.0", "--
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please follow these steps:
 
@@ -409,7 +409,7 @@ We welcome contributions! Please follow these steps:
 
 ---
 
-## 📊 Performance
+## Performance
 
 ### Benchmarks
 
@@ -429,11 +429,11 @@ We welcome contributions! Please follow these steps:
 
 ---
 
-## 🔒 Security & Compliance
+## Security & Compliance
 
 ### Legal Disclaimer
 
-⚠️ **Important**: This system provides informational assistance only and is not a substitute for professional legal advice. All responses include appropriate legal disclaimers.
+ **Important**: This system provides informational assistance only and is not a substitute for professional legal advice. All responses include appropriate legal disclaimers.
 
 ### Data Privacy
 
@@ -444,7 +444,7 @@ We welcome contributions! Please follow these steps:
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -476,7 +476,7 @@ python -m uvicorn backend.app.main:app --reload
 
 ---
 
-## 📈 Roadmap
+## Roadmap
 
 ### Upcoming Features
 
@@ -496,13 +496,13 @@ python -m uvicorn backend.app.main:app --reload
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Neo4j** for graph database technology
 - **Google** for Gemini AI capabilities
@@ -512,7 +512,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📞 Support
+## Support
 
 - **Documentation**: [Full Documentation](Documentation/)
 - **Issues**: [GitHub Issues](https://github.com/yourusername/avokat-ai/issues)
@@ -524,6 +524,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Built with ❤️ for the legal community**
 
-[⭐ Star this repo](https://github.com/yourusername/avokat-ai) • [🐛 Report Bug](https://github.com/yourusername/avokat-ai/issues) • [💡 Request Feature](https://github.com/yourusername/avokat-ai/issues)
+[⭐ Star this repo](https://github.com/yourusername/avokat-ai) • [ Report Bug](https://github.com/yourusername/avokat-ai/issues) • [ Request Feature](https://github.com/yourusername/avokat-ai/issues)
 
 </div>
